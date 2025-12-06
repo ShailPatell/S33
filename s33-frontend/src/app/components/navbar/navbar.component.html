@@ -1,0 +1,15 @@
+<nav class="nav">
+  <div class="nav-left">
+    <span class="logo">S33</span>
+    <a routerLink="/dashboard" *ngIf="auth.isLoggedIn()">Dashboard</a>
+    <a routerLink="/summary" *ngIf="auth.isLoggedIn()">Summary</a>
+    <a routerLink="/reports" *ngIf="auth.isLoggedIn()">Reports</a>
+  </div>
+
+  <button
+    class="logout-btn"
+    *ngIf="auth.isLoggedIn()"
+    (click)="logout()">
+    Logout
+  </button>
+</nav>

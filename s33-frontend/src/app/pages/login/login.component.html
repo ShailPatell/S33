@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="card" style="max-width: 420px; margin: 80px auto;">
+    <h2 style="margin-bottom:20px; text-align:center;">Login</h2>
+
+    <input
+      type="text"
+      class="input"
+      placeholder="Username"
+      [(ngModel)]="username"
+    />
+
+    <input
+      type="password"
+      class="input"
+      placeholder="Password"
+      [(ngModel)]="password"
+    />
+
+    <button class="btn" style="width:100%; margin-top:20px;" (click)="login()">
+      Login
+    </button>
+
+    <p style="margin-top:10px; text-align:center; color:gray;">
+      Use <strong>Shail / Shail</strong> to log in.
+    </p>
+  </div>
+</div>

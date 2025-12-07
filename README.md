@@ -1,4 +1,4 @@
-# S33 – Full Stack Web App (Angular + Node.js + MySQL)
+# S33 –  Web App (Angular + Node.js + MySQL)
 
 S33 is a full-stack web application built with:
 

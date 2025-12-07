@@ -46,3 +46,22 @@ export const db = mysql.createPool({
   password: 'YOUR_PASSWORD', **YOUR MYSQL PASSWORD**
   database: 's33_db'
 });
+
+
+## Inside s33-frontend:
+
+Install:
+
+npm install
+
+
+Build:
+
+ng build --configuration production
+
+
+The build output goes to:
+
+dist/s33-frontend/browser/
+
+deployed using **APACHE**.
